@@ -22,3 +22,7 @@ npm run build
 npm run start
 ```
 5. Navigate to http://localhost:3000/ to see the app running.
+
+
+unzip all the files to the respective directory
+
