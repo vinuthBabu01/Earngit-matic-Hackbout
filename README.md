@@ -1,4 +1,6 @@
-# Earngit-matic-Hackbout
+Ethereum Track: <Earngit>
+
+# Earngit-matic-Hackbout 
       A decentralized open-source platform  where developers can share their projects and earn incentives too
 It uses Ethereum for decentralization and is written in solidity.
 It connects to the blockchain using Metamask. 
