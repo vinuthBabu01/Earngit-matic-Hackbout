@@ -1,4 +1,4 @@
-# Decentralized Airbnb
+
 Setup
 
 1. Install dependencies
@@ -11,7 +11,7 @@ npm install
 npm run test:ethereum
 ```
 
-3. Deploy and paste your contract address to variable `airbnbContractAddress` on line 7 in [utils.js](./dapp-ui/plugins/utils.js).
+3. Deploy and paste your contract address to variable `ContractAddress` on line 7 in [utils.js](./dapp-ui/plugins/utils.js).
 
 
 4. Run DApp UI
