@@ -53,7 +53,7 @@ class Layout extends Component {
     getALLHashes = async () => {
         let response = await axios({
             method: 'post',
-            url: credentials.CUSTOM_URL+"/moibit/listfiles",
+            url: credentials.CUSTOM_URL+"/moibit/v0/listfiles",
             data: { path: "/" }
         });
         let data = [];
@@ -120,7 +120,7 @@ class Layout extends Component {
     checkForProvenence = async (name,hash) => {
         let response = await axios({
             method: 'post',
-            url: credentials.CUSTOM_URL+"/moibit/listfiles",
+            url: credentials.CUSTOM_URL+"/moibit/v0/listfiles",
             data: { path: "/" }
         });
 
@@ -178,7 +178,7 @@ class Layout extends Component {
             else {
                 responseType = 'blob';
             }
-            const url = credentials.CUSTOM_URL+'/moibit/readfilebyhash';
+            const url = credentials.CUSTOM_URL+'/moibit/v0/readfilebyhash';
             axios({
                 method: 'post',
                 url: url,
